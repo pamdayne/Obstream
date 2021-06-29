@@ -4,3 +4,5 @@
 
 This is a personal project of mine.
 To create my stream's overlay using ReactJS, as a part of my learning journey with JS and its frameworks.
+
+*I occasionaly stream on [Twitch](https://twitch.tv/daeynne).*
