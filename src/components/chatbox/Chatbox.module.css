@@ -1,0 +1,8 @@
+.chatbox {
+  height: 60vh;
+  background: rgb(0 0 0 /40%);
+  border-radius: 50px;
+  text-align: right;
+
+  padding: 30px;
+}

@@ -1,0 +1,28 @@
+.wrapper {
+}
+.nav {
+  list-style-type: none;
+  padding-left: 0;
+  width: 180px;
+}
+.nav li {
+  margin: 20px 0;
+}
+.nav li a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+li > .active {
+  animation: pulseLR 3s ease;
+}
+@keyframes pulseLR {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 30px;
+  }
+}

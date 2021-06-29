@@ -1,0 +1,15 @@
+.streamer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo img{
+    max-width: 250px;
+}
+.streamer h3{
+    padding: 30px 0;
+    font-weight: 200;
+    font-size: 1.5em;
+    letter-spacing: 15px;
+    text-align: center;
+}
