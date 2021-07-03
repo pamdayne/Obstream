@@ -6,7 +6,7 @@ import './content.css';
 function Talkbox(){
     return <div className={css.content}>
         <div className={css.inner}>
-            <Timestamp class="talktime" />
+            <Timestamp className="talktime" />
             <div className={css.me_is_here}></div>
         </div>
     </div>;

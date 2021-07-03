@@ -23,16 +23,16 @@ body * {
 }
 
 .bg {
-  background: url(img/AmongTreesScreenshot15.png) no-repeat center;
+  background: url(img/AmongTreesScreenshot-Start.jpg) no-repeat center;
 }
 .talk {
-  background: url(img/AmongTreesScreenshot3.png) no-repeat center;
+  background: url(img/AmongTreesScreenshot-Chat.jpg) no-repeat center;
 }
 .brb {
-  background: url(img/AmongTreesScreenshot21.png) no-repeat center;
+  background: url(img/AmongTreesScreenshot-Brb.jpg) no-repeat center;
 }
 .end {
-  background: url(img/AmongTreesScreenshot23.png) no-repeat center;
+  background: url(img/AmongTreesScreenshot-End.jpg) no-repeat center;
 }
 
 

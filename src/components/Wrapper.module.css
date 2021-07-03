@@ -5,6 +5,7 @@
   border-radius: 5em;
 
   background-size: cover;
+  box-shadow: 0 0 10em -4em #1c0859;
 
   display: flex;
   justify-content: space-between;
