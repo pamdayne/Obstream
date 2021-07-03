@@ -1,0 +1,47 @@
+.status{
+    position: relative;
+}
+
+.text{
+    text-align: right;
+    margin-right: 2rem;
+    text-shadow: 5px 5px 10px #000;
+}
+
+.icon{
+    position: absolute;
+    top: 3px; 
+
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    margin-left: 10px;
+
+    animation: blinking 2s ease-in-out infinite;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: greenyellow;
+}
+
+.orange{
+    background: orange;
+}
+
+.pause{
+    background: #fff;
+
+    border-radius: 0;
+    width: 5px;
+    box-shadow: 10px 0 0 #fff;
+}
+
+
+@keyframes blinking{
+    0%, 100%{ opacity: 1}
+    50% { opacity: 0 ;}
+}

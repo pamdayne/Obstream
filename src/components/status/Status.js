@@ -1,12 +1,12 @@
 import React from 'react';
-import css from './Status.module.css';
+import './status.css';
 
 function Status(props) {
   return (
-    <div className={css.status}>
-      <p className={css.text}>
+    <div className="status">
+      <p className="text">
         {props.status}
-        <span className="dot"></span>
+        <span className={["icon", props.dot].join(" ")}></span>
       </p>
     </div>
   );

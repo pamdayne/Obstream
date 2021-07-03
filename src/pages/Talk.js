@@ -1,10 +1,10 @@
 import React from "react";
 import Status from "../components/status/Status";
 
-function Talk() {
+function Talk(props) {
   return (
     <div>
-      <Status status="ChillChat" />
+      <Status status="ChillChat" dot="green" />
     </div>
   );
 }

@@ -1,0 +1,38 @@
+.bg {
+  animation: shadowRotation 10s ease infinite,
+    moveWrapperBg 60s ease alternate infinite;
+}
+
+.bg.end {
+  animation: shadowRotation 50s ease infinite;
+}
+
+/*  keyframes */
+@keyframes shadowRotation {
+  0%,
+  100% {
+    box-shadow: -10px -10px 20px 0px rgb(18 118 157 / 70%),
+      10px 10px 20px 1px rgb(96 11 105 / 70%);
+  }
+  25% {
+    box-shadow: 10px -10px 20px 0px rgb(18 118 157 / 70%),
+      -10px 10px 20px 1px rgb(96 11 105 / 70%);
+  }
+  50% {
+    box-shadow: 10px 10px 20px 0px rgb(18 118 157 / 70%),
+      -10px -10px 20px 1px rgb(96 11 105 / 70%);
+  }
+  75% {
+    box-shadow: -10px 10px 20px 0px rgb(18 118 157 / 70%),
+      10px -10px 20px 1px rgb(96 11 105 / 70%);
+  }
+}
+
+@keyframes moveWrapperBg {
+  from {
+    background-position-x: right;
+  }
+  to {
+    background-position-x: left;
+  }
+}

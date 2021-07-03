@@ -18,12 +18,6 @@ function Nav() {
     opacity: "1",
   };
 
-  function HasActiveClass() {
-    let pathlink = document.getElementsByTagName("a");
-    console.log(pathlink);
-    return "";
-  }
-
   return (
     <div className={css.wrapper}>
       <ul className={css.nav}>
@@ -48,7 +42,6 @@ function Nav() {
           </NavLink>
         </li>
       </ul>
-      <HasActiveClass />
     </div>
   );
 }

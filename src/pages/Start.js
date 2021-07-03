@@ -1,12 +1,12 @@
 import React from "react";
 import Status from "../components/status/Status";
 
-function Intro() {
+function Start(props) {
   return (
     <div>
-      <Status status="Loading" />
+      <Status status="Loading" dot="red"/>
     </div>
   );
 }
 
-export default Intro;
+export default Start;

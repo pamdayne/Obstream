@@ -1,28 +1,54 @@
-.wrapper {
-}
 .nav {
   list-style-type: none;
   padding-left: 0;
-  width: 180px;
+  width: 220px;
 }
 .nav li {
   margin: 20px 0;
 }
+
 .nav li a {
   position: relative;
+  top: 0;
   color: #fff;
   text-decoration: none;
   opacity: 0.5;
 }
 
-li > .active {
-  animation: pulseLR 3s ease;
+.nav > li > a[aria-current] {
+  left: 0;
+  animation: moveLR 2s ease forwards;
 }
-@keyframes pulseLR {
+
+.nav > li > a[aria-current]:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+
+  animation: lineExpand 1.5s 0.2s ease forwards;
+}
+
+/* Animation Keyframes */
+@keyframes moveLR {
   0% {
-    left: 0;
+    margin-left: 0;
   }
   100% {
-    left: 30px;
+    margin-left: 30px;
+  }
+}
+
+@keyframes lineExpand {
+  0%{
+    width:0;
+    left: 0;
+  }
+  100%{
+    width: 20px;
+    left: -30px;
   }
 }

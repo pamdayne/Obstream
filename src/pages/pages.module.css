@@ -1,0 +1,29 @@
+.sq{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+
+    border: 2px solid transparent;
+    box-shadow: 0 0 2px #fff;
+
+    inset: 34.6% 50% 50% 29.7%;
+    margin: auto;
+
+    transform: rotate(43deg);
+    animation: pulseBox 3s ease infinite;
+}
+
+@keyframes pulseBox{
+    0%{
+        opacity: 0;
+        tansform: scale(1);
+    }
+    15%{
+        opacity: 1;
+        tansform: scale(1);
+    }
+    90%, 100%{
+        opacity: 0;
+        transform: scale(2);
+    }
+}

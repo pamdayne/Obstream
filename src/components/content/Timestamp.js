@@ -1,7 +1,8 @@
 import React from "react";
 import css from './Timestamp.module.css';
+import './content.css'
 
-function Timestamp() {
+function Timestamp(props) {
   function timeNow() {
     let today = new Date().toLocaleTimeString("en-US", {
       hour: "2-digit",
@@ -12,7 +13,7 @@ function Timestamp() {
   }
 
   return (
-    <div className={css.timestamp}>
+    <div className={[css.timestamp_a, props.class].join(" ")}>
       <p>{timeNow()} SGT</p>
     </div>
   );
