@@ -5,8 +5,6 @@ import css from "./Chatbox.module.css";
 function Chatbox() {
   return (
     <div className={css.chatbox}>
-      <p>Log</p>
-
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './Streamer.module.css';
-import logo from '../../img/pam_dark.png';
+import logo from '../../img/pam_light.png';
 
 function Streamer(){
     return <div className={css.streamer}>

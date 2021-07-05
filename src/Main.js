@@ -15,8 +15,6 @@ function Main() {
 
   return (
     <>
-      <div className="stars"></div>
-      <div className="twinkling"></div>
       <Wrapper page={page}>
         <LeftSidebar />
         {page.name === "talk" ? <Talkbox /> : null}
