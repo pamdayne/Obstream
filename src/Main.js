@@ -5,6 +5,7 @@ import Talkbox from "./components/content/Talkbox";
 import Wrapper from "./components/Wrapper";
 import Content from "./components/content/Content";
 import LeftSidebar from "./components/sidebar/LeftSidebar";
+import Flakes from "./components/ui/Flakes";
 
 function Main() {
   const locate = useLocation();
@@ -16,6 +17,7 @@ function Main() {
   return (
     <>
       <Wrapper page={page}>
+        <Flakes />
         <LeftSidebar />
         {page.name === "talk" ? <Talkbox /> : null}
         <Content />
