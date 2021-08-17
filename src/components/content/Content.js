@@ -18,7 +18,6 @@ function Content(props) {
       <Route path="/end/" component={End} />
 
       <Chatbox />
-      <p className="img-credit">gameplay image: Among Trees</p>
     </div>
   );
 }
