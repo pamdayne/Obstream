@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c264c38.chunk.css",
+    "main.js": "/static/js/main.67611f23.chunk.js",
+    "main.js.map": "/static/js/main.67611f23.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.11f320ca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.11f320ca.js.map",
+    "static/js/2.4a0ee6d0.chunk.js": "/static/js/2.4a0ee6d0.chunk.js",
+    "static/js/2.4a0ee6d0.chunk.js.map": "/static/js/2.4a0ee6d0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4c264c38.chunk.css.map": "/static/css/main.4c264c38.chunk.css.map",
+    "static/js/2.4a0ee6d0.chunk.js.LICENSE.txt": "/static/js/2.4a0ee6d0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/AmongTreesScreenshot-Start.a7bca668.jpg",
+    "static/media/favicon.58dbaa67.ico": "/static/media/favicon.58dbaa67.ico",
+    "static/media/pam_light.705c56c4.png": "/static/media/pam_light.705c56c4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11f320ca.js",
+    "static/js/2.4a0ee6d0.chunk.js",
+    "static/css/main.4c264c38.chunk.css",
+    "static/js/main.67611f23.chunk.js"
+  ]
+}
