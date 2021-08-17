@@ -28,8 +28,7 @@ body * {
   background-size: 130%;
 }
 .talk {
-  /* background: url(img/AmongTreesScreenshot-Chat.jpg) no-repeat center; */
-  background: transparent;
+  background: url(img/AmongTreesScreenshot-Chat.jpg) no-repeat center;
   background-size: 130%;
 }
 .brb {

@@ -1,5 +1,5 @@
 .bg:not(.end) {
-  /* animation: moveWrapperBg 80s ease alternate infinite; */
+  animation: moveWrapperBg 80s ease alternate infinite;
 }
 
 /*  keyframes */
