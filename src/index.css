@@ -6,6 +6,8 @@ body {
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   padding: 1em;
+
+  background-image: url(img/pattern-bg.png)
 }
 
 body * {
