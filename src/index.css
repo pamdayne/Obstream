@@ -7,7 +7,8 @@ body {
   text-transform: uppercase;
   padding: 1em;
 
-  background-image: url(img/pattern-bg.png)
+  background-image: url(img/pattern-bg.png);
+  background-size: cover;
 }
 
 body * {
@@ -26,7 +27,7 @@ body * {
 }
 
 .bg {
-  background: url(img/AmongTreesScreenshot-Start.jpg) no-repeat center;
+  background: url(img/AmongTreesScreenshot-Chat1.jpg) no-repeat center;
   background-size: 130%;
 }
 .talk {

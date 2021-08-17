@@ -6,7 +6,7 @@
     border: 2px solid transparent;
     box-shadow: 0 0 2px #fff;
 
-    inset: 44% 50% 50% 29.7%;
+    inset: 43% 50% 50% 29.7%;
     margin: auto;
 
     transform: rotate(43deg);
@@ -24,6 +24,6 @@
     }
     90%, 100%{
         opacity: 0;
-        transform: scale(2);
+        transform: scale(3);
     }
 }
