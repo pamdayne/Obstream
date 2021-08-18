@@ -3,7 +3,6 @@ import { useLocation } from "react-router-dom";
 
 import Wrapper from "./components/Wrapper";
 import SidebarR from "./components/sidebar/SidebarR";
-import SidebarL from "./components/sidebar/SidebarL";
 import Flakes from "./components/flakes/Flakes";
 import Center from "./components/content/Center";
 

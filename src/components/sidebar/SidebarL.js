@@ -1,6 +1,5 @@
 import React from "react";
 import css from "../style/LeftSidebar.module.css";
-import Timestamp from "../content/Timestamp";
 
 function SidebarL() {
   return (
