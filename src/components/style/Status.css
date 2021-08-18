@@ -3,8 +3,8 @@
 }
 
 .text{
-    text-align: right;
-    margin-right: 2rem;
+    text-align: left;
+    margin-left: 2rem;
     text-shadow: 5px 5px 10px #000;
 
     font-weight: bold;

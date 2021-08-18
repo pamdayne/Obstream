@@ -1,5 +1,5 @@
 import React from 'react';
-import './status.css';
+import '../style/Status.css';
 
 function Status(props) {
   return (

@@ -1,6 +1,5 @@
 import React from "react";
-import css from './Timestamp.module.css';
-import './content.css'
+import '../style/Content.css'
 
 function Timestamp(props) {
   function timeNow() {
@@ -13,7 +12,7 @@ function Timestamp(props) {
   }
 
   return (
-    <div className={[css.timestamp_a, props.class].join(" ")}>
+    <div className={["timestamp", props.class].join(" ")}>
       <p>{timeNow()} SGT</p>
     </div>
   );

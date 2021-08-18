@@ -1,5 +1,5 @@
 import React from "react";
-import css from './pages.module.css'
+import css from '../components/style/Pages.module.css';
 import Status from "../components/status/Status";
 
 function End(){

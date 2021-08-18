@@ -1,3 +1,17 @@
+.bg:not(.end) {
+  animation: moveWrapperBg 80s ease alternate infinite;
+}
+
+/*  keyframes */
+@keyframes moveWrapperBg {
+  from {
+    background-position-x: right;
+  }
+  to {
+    background-position-x: left;
+  }
+}
+
 .wrapper {
   width: 100%;
   height: calc(100vh - 6em);

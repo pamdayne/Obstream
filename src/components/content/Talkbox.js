@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './Talkbox.module.css';
-import './content.css';
+import '../style/Content.css';
 
 function Talkbox(){
     return <div className={css.content}>
