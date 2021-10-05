@@ -1,4 +1,5 @@
 {
+  "homepage": "http://pamdayne.github.io/Obstream",
   "name": "obstream",
   "version": "1.0.0",
   "private": true,
@@ -14,6 +15,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "react-scripts run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
